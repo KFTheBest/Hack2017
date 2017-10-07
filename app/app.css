@@ -1,0 +1,28 @@
+/* app css stylesheet */
+
+.menu {
+  background-color: #F1E8E8;
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding-top: 50px;
+  height: 100px;
+  margin-top: -4px;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
