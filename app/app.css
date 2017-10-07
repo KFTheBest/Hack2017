@@ -3,26 +3,45 @@
 .menu {
   background-color: #F1E8E8;
   list-style: none;
-  border-bottom: 0.1em solid black;
   margin-bottom: 2em;
-  padding-top: 50px;
+  padding-top: 60px;
   height: 100px;
   margin-top: -4px;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
+  text-align: center;
 }
 
 .menu > li {
   display: inline;
 }
 
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+.menu-title {
+  margin-left: 45px;
+  margin-right: 45px;
+  text-transform: uppercase;
+  font-family: "Arial Black";
+  font-size: 36px;
+}
+
+.menu-title > a {
+  color: #FDFDFD;
+  text-decoration: none;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.jumbotron {
+  max-height: 100vh;
+  background-color: #F1E8E8;
+  margin-top: -35px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.car-list {text-align:center}
+.car-list > li {
+  display: inline;
 }
